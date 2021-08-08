@@ -8,10 +8,12 @@ public class Main {
     public static void main(String[] args) {
 	    String str1 = "2020/12/23 05:30";
 	    String str2 = "2020/13/77 99:99";
+        String str3 = "asdasdasd";
 	    String adrEmail = "abc@mail.com";
         String adrEmail1 = "zzz@ccc.v";
         printRez(str1, checkData(str1));
         printRez(str2, checkData(str2));
+        printRez(str3, checkData(str3));
         printRez(adrEmail, extractDomain(adrEmail));
         printRez(adrEmail1, extractDomain(adrEmail1));
     }
